@@ -8,7 +8,7 @@ const {
   deleteProduct,
 } = require("../../controllers/admin/products-controller");
 
-const { upload } = require("../../helpers/cloudinary");
+const { upload } = require("../../Helpers/cloudinary");
 
 const router = express.Router();
 
